@@ -1,0 +1,119 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "John Snow",
+      "email": "kingonthethrone@gmail.com",
+      "password": "123456",
+      "usertype": "user"
+    },
+    {
+      "name": "Antonio José Braun",
+      "email": "braun1986@hotmail.com",
+      "usertype": "admin",
+      "id": 4
+    },
+    {
+      "name": "Ta Porra",
+      "email": "taporra@gmail.com",
+      "usertype": "support",
+      "id": 5
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "title": "Monitor não liga",
+      "description": "Trocar monitor sala A1",
+      "status": "Pendente",
+      "img": "",
+      "dt_creation": "2024-01-15",
+      "user_id": "2",
+      "room_id": "1",
+      "support_id": ""
+    },
+    {
+      "id": 2,
+      "title": "Botão do mouse não funciona direito.",
+      "description": "Botão direito do mouse quando clica as funciona as vezes não.",
+      "status": "Concluído",
+      "img": "",
+      "dt_creation": "2024-01-20",
+      "user_id": "2",
+      "room_id": "2",
+      "support_id": "5"
+    }
+  ],
+  "rooms": [
+    {
+      "name": "A2",
+      "description": "Laboratório de Informática",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "B1",
+      "description": "Sala de Mecânica"
+    }
+  ],
+  "chats": [
+    {
+      "id": "1",
+      "chatData": [
+        {
+          "id": 1,
+          "userType": "support",
+          "author": "Smeagle",
+          "message": "Boa noite Antonio. Já fizemos a troca do seu monitor! Por favor, teste e veja se está tudo certo.",
+          "day_sent": "2024-06-12",
+          "hour_sent": "14:01"
+        },
+        {
+          "id": 2,
+          "userType": "user",
+          "author": "Bilbo Bolseiro",
+          "message": "Ok, assim que chegar na sala eu testo e dou um retorno pra vocês aqui.",
+          "day_sent": "2024-06-12",
+          "hour_sent": "18:45"
+        },
+        {
+          "id": 3,
+          "userType": "user",
+          "author": "Bilbo Bolseiro",
+          "message": "Olha só, parece que está tudo ok. Muito obrigado pela rapidez.",
+          "day_sent": "2024-06-12",
+          "hour_sent": "19:00"
+        },
+        {
+          "id": 4,
+          "userType": "support",
+          "author": "Smeagle",
+          "message": "Nós que agradecemos. Uma ótima aula.",
+          "day_sent": "2024-06-12",
+          "hour_sent": "19:15"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "chatData": [
+        {
+          "id": 1,
+          "userType": "support",
+          "author": "Baader Gay",
+          "message": "Boa noite Eduardo. Como você pode ver, trocamos o seu mouse, veja se agora está tudo certo.",
+          "day_sent": "2024-05-10",
+          "hour_sent": "18:35"
+        },
+        {
+          "id": 2,
+          "userType": "user",
+          "author": "Carlito`s Programmer",
+          "message": "Está tudo certo, agora posso jogar meu Krunker em paz.",
+          "day_sent": "2024-05-10",
+          "hour_sent": "20:05"
+        }
+      ]
+    }
+  ]
+}
